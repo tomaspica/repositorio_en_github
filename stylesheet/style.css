@@ -16,6 +16,7 @@ body {
 
 header {
     background-color: yellow;
+    background-image: linear-gradient(to left, rgb(255, 254, 184), yellow, rgb(255, 254, 184) );
     display: flex;
     flex-direction: column;
     border-bottom: 3px solid grey;
@@ -308,10 +309,12 @@ footer {
 }
 .sectionfooter {
     background-color: yellow;
+    background-image: linear-gradient(to left, rgb(255, 254, 184), yellow, rgb(255, 254, 184) );
     height: 100px;
     display: flex;
     justify-content: space-between;
 }
+
 .logofooter {
     display: flex;
     align-items: center;
